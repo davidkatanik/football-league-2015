@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Capacity hist Stadium FK" directorySegmentName="seg_0" id="E737F2A1-37F7-C454-04B0-F5B567D0D3CA">
+<createdBy>David</createdBy>
+<createdTime>2015-06-02 15:46:17 UTC</createdTime>
+<ownerDesignName>FootballLeague</ownerDesignName>
+<engineerTo>
+<item key="8FEBE4BF-D68D-4E19-BC49-B337D0A86056" value="true"/>
+</engineerTo>
+<sourcePk>6E696FA3-B8C9-87F6-9F07-4007ABA3A398</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>83453C60-AA2B-38DE-F62B-AF86151BA841</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>BD88532E-76EF-2196-1FE1-79EC1629DD50</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

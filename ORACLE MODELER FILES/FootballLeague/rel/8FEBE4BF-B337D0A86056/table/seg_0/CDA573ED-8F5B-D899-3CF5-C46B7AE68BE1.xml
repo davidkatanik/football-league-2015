@@ -1,0 +1,184 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CDA573ED-8F5B-D899-3CF5-C46B7AE68BE1" name="Match">
+<createdBy>David</createdBy>
+<createdTime>2015-06-02 12:38:10 UTC</createdTime>
+<generatorID>E207C6AD-27E3-2DB6-2B19-05BD5999FEBB</generatorID>
+<ownerDesignName>FootballLeague</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idm" id="0C4891FB-D7BD-AED9-B376-E0B562CF8484">
+<createdBy>David</createdBy>
+<createdTime>2015-06-02 12:38:10 UTC</createdTime>
+<generatorID>F17A90DE-77B3-2ACB-18D0-D267D4957AE1</generatorID>
+<ownerDesignName>FootballLeague</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datetime" id="76299DC2-6AF3-86FC-7C3E-570AC9CB197C">
+<createdBy>David</createdBy>
+<createdTime>2015-06-02 12:38:10 UTC</createdTime>
+<generatorID>5B4BE8E3-2D94-E1EC-6EC5-F2B7539431E7</generatorID>
+<ownerDesignName>FootballLeague</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="round" id="03280DB5-D8F4-3B55-56AB-6C1C4C34F52D">
+<createdBy>David</createdBy>
+<createdTime>2015-06-02 12:38:10 UTC</createdTime>
+<generatorID>64D5B638-8583-3D75-394D-0F7553DC5698</generatorID>
+<ownerDesignName>FootballLeague</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="result" id="133A31EA-F96D-8CC9-6601-9584ECCC4972">
+<createdBy>David</createdBy>
+<createdTime>2015-06-02 12:38:10 UTC</createdTime>
+<generatorID>08F9A7E3-2D84-8C17-0DDB-8D81D8323201</generatorID>
+<ownerDesignName>FootballLeague</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="video_report" id="A3F5B951-E13F-CB5F-6307-CA155E845D54">
+<createdBy>David</createdBy>
+<createdTime>2015-06-02 12:38:10 UTC</createdTime>
+<generatorID>0649367B-5E4E-D76F-F4F2-8C2862E372EC</generatorID>
+<ownerDesignName>FootballLeague</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="idl" id="4A653C6B-F1C0-5B1C-F6E3-987760AC7107">
+<createdBy>David</createdBy>
+<createdTime>2015-06-02 12:38:10 UTC</createdTime>
+<generatorID>EF4731E7-C497-1341-D7BB-FA09E615B530</generatorID>
+<ownerDesignName>FootballLeague</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>2FEF166F-32CA-8F01-ECF0-C783F6C8C025</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5139C824-F343-6063-C92A-01317383078A" referredColumn="2FEF166F-32CA-8F01-ECF0-C783F6C8C025"/>
+</associations>
+</Column>
+<Column name="idt_home" id="D26BACA1-5E62-556A-B856-F49CE21152DB">
+<createdBy>David</createdBy>
+<createdTime>2015-06-02 12:38:10 UTC</createdTime>
+<generatorID>B5114AF1-C32A-E4BC-A20D-267FA501DC7A</generatorID>
+<ownerDesignName>FootballLeague</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>56D940DB-7823-2EE8-7362-956567489347</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="276A7B68-25C9-6534-56EC-DE021B0AFD88" referredColumn="56D940DB-7823-2EE8-7362-956567489347"/>
+</associations>
+</Column>
+<Column name="idt_away" id="FFAB3FDA-70ED-0148-0F1D-1FC99C5BF076">
+<createdBy>David</createdBy>
+<createdTime>2015-06-02 12:38:10 UTC</createdTime>
+<generatorID>3051334A-675E-E8F8-78F5-C98C4AF13BAC</generatorID>
+<ownerDesignName>FootballLeague</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>56D940DB-7823-2EE8-7362-956567489347</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1BDEAEA4-2F09-24EF-6647-7F5265F9E1B3" referredColumn="56D940DB-7823-2EE8-7362-956567489347"/>
+</associations>
+</Column>
+<Column name="ids" id="5BFFF5F1-F451-CB9E-8373-436D92392114">
+<createdBy>David</createdBy>
+<createdTime>2015-06-02 12:38:10 UTC</createdTime>
+<generatorID>34422A3E-7C46-6D9B-08C9-3445660F7B71</generatorID>
+<ownerDesignName>FootballLeague</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>114DA2A4-CD40-DF81-7F18-1B4035C345F4</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6B48778C-BC4D-93BC-6C84-40E675A6717A" referredColumn="114DA2A4-CD40-DF81-7F18-1B4035C345F4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="861FD859-BA31-CBFE-0E25-E55F67A8A2FA" name="Match_PK">
+<createdBy>David</createdBy>
+<createdTime>2015-06-02 12:38:10 UTC</createdTime>
+<generatorID>EC2DBFB0-8392-3B4D-47C9-4474FC499B49</generatorID>
+<ownerDesignName>FootballLeague</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0C4891FB-D7BD-AED9-B376-E0B562CF8484"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4F8948CC-D8CF-8ED1-013F-79A6174F5206" name="Match_League_FK">
+<createdBy>David</createdBy>
+<createdTime>2015-06-02 12:38:10 UTC</createdTime>
+<generatorID>6C45D95C-51D4-83EC-518E-D6544E8726DA</generatorID>
+<ownerDesignName>FootballLeague</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4A653C6B-F1C0-5B1C-F6E3-987760AC7107"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CE4345E9-F643-A276-AED3-76B21D2E531D" name="Match_Home_Team_FK">
+<createdBy>David</createdBy>
+<createdTime>2015-06-02 12:38:10 UTC</createdTime>
+<generatorID>75FFDEF2-C254-684D-26E1-48536FEB487A</generatorID>
+<ownerDesignName>FootballLeague</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D26BACA1-5E62-556A-B856-F49CE21152DB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C9BB916D-8807-7284-7BCD-E29F0F2170AE" name="Match_Away_Team_FK">
+<createdBy>David</createdBy>
+<createdTime>2015-06-02 12:38:10 UTC</createdTime>
+<generatorID>D4F4ACAA-21E0-27F5-AC88-A207CE910084</generatorID>
+<ownerDesignName>FootballLeague</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FFAB3FDA-70ED-0148-0F1D-1FC99C5BF076"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CE5A5917-8BA6-D1B9-E7CA-1CD679B5BBC3" name="Match_Stadium_FK">
+<createdBy>David</createdBy>
+<createdTime>2015-06-02 12:38:10 UTC</createdTime>
+<generatorID>F1FD7EE4-D41A-D02C-4886-C558AB9D32BA</generatorID>
+<ownerDesignName>FootballLeague</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5BFFF5F1-F451-CB9E-8373-436D92392114"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

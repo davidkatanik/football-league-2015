@@ -1,0 +1,27 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="Table" objectID="B3F35ED9-4C8A-1BF7-A3F9-12B68FCDE320" name="Capacity_hist" seqName="seg_0"/>
+   <object objectType="Table" objectID="ED0479DE-77A6-8C71-59C2-5E430BC1FE46" name="Controls" seqName="seg_0"/>
+   <object objectType="Table" objectID="5BF69926-0E38-111D-91A7-A2600E2C33FC" name="Forward" seqName="seg_0"/>
+   <object objectType="Table" objectID="0819E2B5-5801-F29C-3524-6C8BBF038933" name="League" seqName="seg_0"/>
+   <object objectType="Table" objectID="CDA573ED-8F5B-D899-3CF5-C46B7AE68BE1" name="Match" seqName="seg_0"/>
+   <object objectType="Table" objectID="988E7F9A-F247-F87F-D0DC-45EAF9335ADD" name="Player" seqName="seg_0"/>
+   <object objectType="Table" objectID="FB453420-1DC0-1251-D14E-816097E405D0" name="Plays" seqName="seg_0"/>
+   <object objectType="Table" objectID="B3DB7E1F-930F-FB88-3BF0-A7683081930F" name="Referee" seqName="seg_0"/>
+   <object objectType="Table" objectID="063A388A-4E0E-AE6C-C919-3017D39CE969" name="Stadium" seqName="seg_0"/>
+   <object objectType="Table" objectID="5471FE2F-C292-DDC0-B829-7E29BD055B34" name="Statistics" seqName="seg_0"/>
+   <object objectType="Table" objectID="50A14077-A377-A7A9-6239-A8BE0F041151" name="Team" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="537931D5-65A5-CCB9-7A66-AA82BCFF7C86" name="Capacity_hist_Stadium_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="53873C97-B75D-ED2D-DCB7-5C5CD7F0F148" name="FK_ASS_2" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="22410D7C-D6B5-89C4-26B1-B012F420DFAA" name="FK_ASS_3" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="6B3D7F7A-374F-2A21-A055-E542844974DC" name="Forward_Player_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="1BDEAEA4-2F09-24EF-6647-7F5265F9E1B3" name="Match_Away_Team_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="276A7B68-25C9-6534-56EC-DE021B0AFD88" name="Match_Home_Team_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="5139C824-F343-6063-C92A-01317383078A" name="Match_League_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="6B48778C-BC4D-93BC-6C84-40E675A6717A" name="Match_Stadium_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="CE03DDD3-2358-406F-CB5C-137147C6ED21" name="Player_Team_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="7D3F4D35-B756-25B9-7FF1-6FFF089DE212" name="Plays_Match_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="DD0BC006-FE64-4112-B58B-1C0F98C9EF9B" name="Plays_Player_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="5951368A-7042-EB3F-8C5C-C801F1298F25" name="Statistics_Match_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="26709001-1580-F64A-580D-872D0298A30D" name="Team_League_FK" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

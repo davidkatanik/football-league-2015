@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0819E2B5-5801-F29C-3524-6C8BBF038933" name="League">
+<createdBy>David</createdBy>
+<createdTime>2015-06-02 12:38:10 UTC</createdTime>
+<generatorID>A5410119-DFC8-A874-B641-44EE6E454F14</generatorID>
+<ownerDesignName>FootballLeague</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idl" id="2FEF166F-32CA-8F01-ECF0-C783F6C8C025">
+<createdBy>David</createdBy>
+<createdTime>2015-06-02 12:38:10 UTC</createdTime>
+<generatorID>F63FD223-80DA-D142-64BE-06A88D7B9876</generatorID>
+<ownerDesignName>FootballLeague</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="5B64824B-0A7F-DDF8-6815-0DA08363F84F">
+<createdBy>David</createdBy>
+<createdTime>2015-06-02 12:38:10 UTC</createdTime>
+<generatorID>D1DB5131-E686-D345-D2D3-3AD67CB0B6C8</generatorID>
+<ownerDesignName>FootballLeague</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rounds" id="DF1DD128-7E8A-CE00-192F-E346489C3223">
+<createdBy>David</createdBy>
+<createdTime>2015-06-02 12:38:10 UTC</createdTime>
+<generatorID>8753587B-BDB3-B2E2-FC7E-5A1FD83DECDF</generatorID>
+<ownerDesignName>FootballLeague</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="11CDCBED-1250-5047-4B60-0C86020820D5" name="League_PK">
+<createdBy>David</createdBy>
+<createdTime>2015-06-02 12:38:10 UTC</createdTime>
+<generatorID>F55428E9-AF7D-CD80-4A2B-3B9E0803367B</generatorID>
+<ownerDesignName>FootballLeague</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2FEF166F-32CA-8F01-ECF0-C783F6C8C025"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

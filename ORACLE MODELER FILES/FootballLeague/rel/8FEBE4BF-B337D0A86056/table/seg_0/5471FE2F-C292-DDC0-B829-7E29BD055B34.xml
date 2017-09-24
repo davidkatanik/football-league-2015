@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5471FE2F-C292-DDC0-B829-7E29BD055B34" name="Statistics">
+<createdBy>David</createdBy>
+<createdTime>2015-06-02 12:38:10 UTC</createdTime>
+<generatorID>3B0FEED1-D837-56C8-171C-42AEF095529F</generatorID>
+<ownerDesignName>FootballLeague</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idm" id="8BC166DC-034B-0278-772B-E6EF1681C55C">
+<createdBy>David</createdBy>
+<createdTime>2015-06-02 12:38:10 UTC</createdTime>
+<generatorID>26D14AAD-2B78-E2AE-3CB9-5D7AE6640BB9</generatorID>
+<ownerDesignName>FootballLeague</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>0C4891FB-D7BD-AED9-B376-E0B562CF8484</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5951368A-7042-EB3F-8C5C-C801F1298F25" referredColumn="0C4891FB-D7BD-AED9-B376-E0B562CF8484"/>
+</associations>
+</Column>
+<Column name="goals" id="886EADFE-298A-66F6-6E66-A578CA82C3DE">
+<createdBy>David</createdBy>
+<createdTime>2015-06-02 12:38:10 UTC</createdTime>
+<generatorID>F7B363E1-B353-87A6-995D-4CF7BD7B34CC</generatorID>
+<ownerDesignName>FootballLeague</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="yellow_cards" id="6036613F-A458-2830-F081-2C43FE87A45C">
+<createdBy>David</createdBy>
+<createdTime>2015-06-02 12:38:10 UTC</createdTime>
+<generatorID>48C39606-B128-6117-6C55-DF1815DC4D39</generatorID>
+<ownerDesignName>FootballLeague</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="red_cards" id="A3C3A5E1-652E-DC83-5B72-058BC51FAA27">
+<createdBy>David</createdBy>
+<createdTime>2015-06-02 12:38:10 UTC</createdTime>
+<generatorID>15B3AAD5-7C67-313A-F727-88B18DB7D61B</generatorID>
+<ownerDesignName>FootballLeague</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ACC34D4D-97A4-5327-ECE6-9106167FD7F7" name="Statistics_PK">
+<createdBy>David</createdBy>
+<createdTime>2015-06-02 12:38:10 UTC</createdTime>
+<generatorID>478DAFF6-7268-A558-100D-906C86BC3AB8</generatorID>
+<ownerDesignName>FootballLeague</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8BC166DC-034B-0278-772B-E6EF1681C55C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="484A1B04-3EFD-A440-26D5-BC0F6A9C162B" name="Statistics_Match_FK">
+<createdBy>David</createdBy>
+<createdTime>2015-06-02 12:38:10 UTC</createdTime>
+<generatorID>D366A48D-0500-CB5D-2B54-96B670C60D8B</generatorID>
+<ownerDesignName>FootballLeague</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8BC166DC-034B-0278-772B-E6EF1681C55C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

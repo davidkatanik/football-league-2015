@@ -1,0 +1,144 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E207C6AD-27E3-2DB6-2B19-05BD5999FEBB" name="Match">
+<createdBy>David</createdBy>
+<createdTime>2015-06-02 09:20:52 UTC</createdTime>
+<ownerDesignName>FootballLeague</ownerDesignName>
+<engineerTo>
+<item key="8FEBE4BF-D68D-4E19-BC49-B337D0A86056" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idm" id="F17A90DE-77B3-2ACB-18D0-D267D4957AE1">
+<createdBy>David</createdBy>
+<createdTime>2015-06-02 09:21:03 UTC</createdTime>
+<ownerDesignName>FootballLeague</ownerDesignName>
+<engineerTo>
+<item key="8FEBE4BF-D68D-4E19-BC49-B337D0A86056" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="datetime" id="5B4BE8E3-2D94-E1EC-6EC5-F2B7539431E7">
+<createdBy>David</createdBy>
+<createdTime>2015-06-02 09:21:37 UTC</createdTime>
+<ownerDesignName>FootballLeague</ownerDesignName>
+<engineerTo>
+<item key="8FEBE4BF-D68D-4E19-BC49-B337D0A86056" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+</Attribute>
+<Attribute name="round" id="64D5B638-8583-3D75-394D-0F7553DC5698">
+<createdBy>David</createdBy>
+<createdTime>2015-06-02 09:28:42 UTC</createdTime>
+<ownerDesignName>FootballLeague</ownerDesignName>
+<engineerTo>
+<item key="8FEBE4BF-D68D-4E19-BC49-B337D0A86056" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="result" id="08F9A7E3-2D84-8C17-0DDB-8D81D8323201">
+<createdBy>David</createdBy>
+<createdTime>2015-06-02 09:21:21 UTC</createdTime>
+<ownerDesignName>FootballLeague</ownerDesignName>
+<engineerTo>
+<item key="8FEBE4BF-D68D-4E19-BC49-B337D0A86056" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+</Attribute>
+<Attribute name="video report" id="0649367B-5E4E-D76F-F4F2-8C2862E372EC">
+<createdBy>David</createdBy>
+<createdTime>2015-06-02 09:47:33 UTC</createdTime>
+<ownerDesignName>FootballLeague</ownerDesignName>
+<engineerTo>
+<item key="8FEBE4BF-D68D-4E19-BC49-B337D0A86056" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+</Attribute>
+<Attribute name="idl" id="EF4731E7-C497-1341-D7BB-FA09E615B530">
+<createdBy>David</createdBy>
+<createdTime>2015-06-02 09:35:57 UTC</createdTime>
+<generatorID>6C45D95C-51D4-83EC-518E-D6544E8726DA</generatorID>
+<ownerDesignName>FootballLeague</ownerDesignName>
+<engineerTo>
+<item key="8FEBE4BF-D68D-4E19-BC49-B337D0A86056" value="true"/>
+</engineerTo>
+<referedAttribute>F63FD223-80DA-D142-64BE-06A88D7B9876</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="idt home" id="B5114AF1-C32A-E4BC-A20D-267FA501DC7A">
+<createdBy>David</createdBy>
+<createdTime>2015-06-02 09:38:26 UTC</createdTime>
+<generatorID>75FFDEF2-C254-684D-26E1-48536FEB487A</generatorID>
+<ownerDesignName>FootballLeague</ownerDesignName>
+<engineerTo>
+<item key="8FEBE4BF-D68D-4E19-BC49-B337D0A86056" value="true"/>
+</engineerTo>
+<referedAttribute>F125476C-ED3E-8085-2A42-5B2C89E11916</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="idt away" id="3051334A-675E-E8F8-78F5-C98C4AF13BAC">
+<createdBy>David</createdBy>
+<createdTime>2015-06-02 09:38:32 UTC</createdTime>
+<generatorID>D4F4ACAA-21E0-27F5-AC88-A207CE910084</generatorID>
+<ownerDesignName>FootballLeague</ownerDesignName>
+<engineerTo>
+<item key="8FEBE4BF-D68D-4E19-BC49-B337D0A86056" value="true"/>
+</engineerTo>
+<referedAttribute>F125476C-ED3E-8085-2A42-5B2C89E11916</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="ids" id="34422A3E-7C46-6D9B-08C9-3445660F7B71">
+<createdBy>David</createdBy>
+<createdTime>2015-06-02 09:48:25 UTC</createdTime>
+<generatorID>F1FD7EE4-D41A-D02C-4886-C558AB9D32BA</generatorID>
+<ownerDesignName>FootballLeague</ownerDesignName>
+<engineerTo>
+<item key="8FEBE4BF-D68D-4E19-BC49-B337D0A86056" value="true"/>
+</engineerTo>
+<referedAttribute>B90B1571-B03D-45AF-4E77-2424AEC2CC9A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EC2DBFB0-8392-3B4D-47C9-4474FC499B49" name="Match_PK">
+<createdBy>David</createdBy>
+<createdTime>2015-06-02 09:21:57 UTC</createdTime>
+<ownerDesignName>FootballLeague</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="8FEBE4BF-D68D-4E19-BC49-B337D0A86056" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F17A90DE-77B3-2ACB-18D0-D267D4957AE1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

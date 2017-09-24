@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C20A3157-9334-64D2-B2D1-16337C7C60E4" name="Team">
+<createdBy>David</createdBy>
+<createdTime>2015-06-02 09:31:44 UTC</createdTime>
+<ownerDesignName>FootballLeague</ownerDesignName>
+<engineerTo>
+<item key="8FEBE4BF-D68D-4E19-BC49-B337D0A86056" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idt" id="F125476C-ED3E-8085-2A42-5B2C89E11916">
+<createdBy>David</createdBy>
+<createdTime>2015-06-02 09:31:48 UTC</createdTime>
+<ownerDesignName>FootballLeague</ownerDesignName>
+<engineerTo>
+<item key="8FEBE4BF-D68D-4E19-BC49-B337D0A86056" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="name" id="28416A56-6A57-6BC5-A5A4-F177E56D81B8">
+<createdBy>David</createdBy>
+<createdTime>2015-06-02 09:32:08 UTC</createdTime>
+<ownerDesignName>FootballLeague</ownerDesignName>
+<engineerTo>
+<item key="8FEBE4BF-D68D-4E19-BC49-B337D0A86056" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64</dataTypeSize>
+</Attribute>
+<Attribute name="foundation" id="54C1A5C6-B0E4-D749-5887-C5DABC14FEFC">
+<createdBy>David</createdBy>
+<createdTime>2015-06-02 09:32:17 UTC</createdTime>
+<ownerDesignName>FootballLeague</ownerDesignName>
+<engineerTo>
+<item key="8FEBE4BF-D68D-4E19-BC49-B337D0A86056" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Attribute>
+<Attribute name="idl" id="7E05D989-AB74-1FBF-668E-A5E4631058F4">
+<createdBy>David</createdBy>
+<createdTime>2015-06-02 09:35:32 UTC</createdTime>
+<generatorID>A4F7ACEF-C87A-4BD1-9010-0586CF47B406</generatorID>
+<ownerDesignName>FootballLeague</ownerDesignName>
+<engineerTo>
+<item key="8FEBE4BF-D68D-4E19-BC49-B337D0A86056" value="true"/>
+</engineerTo>
+<referedAttribute>F63FD223-80DA-D142-64BE-06A88D7B9876</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C0087422-9D40-7F74-943B-18DF1EAF42A7" name="Team_PK">
+<createdBy>David</createdBy>
+<createdTime>2015-06-02 09:32:08 UTC</createdTime>
+<ownerDesignName>FootballLeague</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="8FEBE4BF-D68D-4E19-BC49-B337D0A86056" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F125476C-ED3E-8085-2A42-5B2C89E11916</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

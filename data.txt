@@ -1,0 +1,90 @@
+--LEAGUEs
+INSERT INTO League(name,rounds) VALUES('Premier league', 38);
+INSERT INTO League(name,rounds)  VALUES('Synot liga', 30);
+INSERT INTO League(name,rounds)  VALUES('Primera division', 38);
+INSERT INTO League(name,rounds)  VALUES('Serie A', 38);
+INSERT INTO League(name,rounds)  VALUES('Ligue 1', 38);
+INSERT INTO League(name,rounds)  VALUES('1. Budesliga', 34);
+--TEAMs
+INSERT INTO Team(name,foundation,idl) values('Chelsea FC','01/01/1905',1);
+INSERT INTO Team(name,foundation,idl) values('Arsenal FC','01/01/1899',1);
+INSERT INTO Team(name,foundation,idl) values('Manchester Und','01/01/1870',1);
+INSERT INTO Team(name,foundation,idl) values('Manchester City','01/01/1934',1);
+INSERT INTO Team(name,foundation,idl) values('FC Banik Ostrava','01/01/1922',2);
+INSERT INTO Team(name,foundation,idl) values('AS Sralta Praha','01/01/1900',2);
+INSERT INTO Team(name,foundation,idl) values('FC Viktoria Plzen','01/01/1968',2);
+INSERT INTO Team(name,foundation,idl) values('FC Barcelona','01/01/1911',3);
+INSERT INTO Team(name,foundation,idl) values('Real Madrid','01/01/1895',3);
+INSERT INTO Team(name,foundation,idl) values('FC Bayern Munich','01/01/1911',6);
+INSERT INTO Team(name,foundation,idl) values('Dortmund','01/01/1897',6);
+INSERT INTO Team(name,foundation,idl) values('Wolfsburg','01/01/1960',6);
+INSERT INTO Team(name,foundation,idl) values('Bayer Leverkusen','01/01/1905',6);
+--PLAYERs
+INSERT INTO Player (first_name,last_name,birthdate,weight,height,position,idt) VALUES ('Maite','Barber','22/12/1997',85,165,'D',1);
+INSERT INTO Player (first_name,last_name,birthdate,weight,height,position,idt) VALUES ('Kaseem','Phelps','30/11/1991',81,187,'D',2);
+INSERT INTO Player (first_name,last_name,birthdate,weight,height,position,idt) VALUES ('Dakota','Cantu','08/10/1998',70,181,'D',3);
+INSERT INTO Player (first_name,last_name,birthdate,weight,height,position,idt) VALUES ('Elvis','Kline','23/02/1995',69,163,'D',1);
+INSERT INTO Player (first_name,last_name,birthdate,weight,height,position,idt) VALUES ('Nerea','Harrison','08/07/1997',80,189,'M',3);
+INSERT INTO Player (first_name,last_name,birthdate,weight,height,position,idt) VALUES ('Amery','Wagner','14/04/1990',87,187,'M',3);
+INSERT INTO Player (first_name,last_name,birthdate,weight,height,position,idt) VALUES ('Aristotle','Cohen','01/09/1992',81,182,'G',4);
+INSERT INTO Player (first_name,last_name,birthdate,weight,height,position,idt) VALUES ('Portia','Smith','22/04/1994',60,168,'M',5);
+INSERT INTO Player (first_name,last_name,birthdate,weight,height,position,idt) VALUES ('Violet','Kirk','10/08/1998',65,165,'D',6);
+INSERT INTO Player (first_name,last_name,birthdate,weight,height,position,idt) VALUES ('Ishmael','Head','19/05/1995',73,161,'D',7);
+INSERT INTO Player (first_name,last_name,birthdate,weight,height,position,idt) VALUES ('Kylynn','Leonard','16/08/1999',88,190,'M',8);
+INSERT INTO Player (first_name,last_name,birthdate,weight,height,position,idt) VALUES ('Blair','Gay','16/10/1997',60,190,'F',9);
+INSERT INTO Player (first_name,last_name,birthdate,weight,height,position,idt) VALUES ('Katelyn','Beach','11/06/1998',81,190,'F',10);
+INSERT INTO Player (first_name,last_name,birthdate,weight,height,position,idt) VALUES ('Velma','Olson','22/01/1996',69,189,'F',11);
+INSERT INTO Player (first_name,last_name,birthdate,weight,height,position,idt) VALUES ('Leilani','Williamson','11/08/1992',74,169,'F',12);
+INSERT INTO Player (first_name,last_name,birthdate,weight,height,position,idt) VALUES ('Maxwell','Matthews','22/01/1995',80,170,'F',13);
+INSERT INTO Player (first_name,last_name,birthdate,weight,height,position,idt) VALUES ('Hu','Lawrence','07/01/1997',71,162,'F',6);
+INSERT INTO Player (first_name,last_name,birthdate,weight,height,position,idt) VALUES ('Savannah','Powell','23/07/1995',65,184,'F',5);
+--FORWARDs
+INSERT INTO Forward (idp,max_speed,first_name,last_name,birthdate,weight,height,position,idt) VALUES (12,35,'Blair','Gay','16/10/1997',60,190,'F',9);
+INSERT INTO Forward (idp,max_speed,first_name,last_name,birthdate,weight,height,position,idt) VALUES (13,43,'Katelyn','Beach','11/06/1998',81,190,'F',10);
+INSERT INTO Forward (idp,max_speed,first_name,last_name,birthdate,weight,height,position,idt) VALUES (14,31,'Velma','Olson','22/01/1996',69,189,'F',11);
+INSERT INTO Forward (idp,max_speed,first_name,last_name,birthdate,weight,height,position,idt) VALUES (15,44,'Leilani','Williamson','11/08/1992',74,169,'F',12);
+INSERT INTO Forward (idp,max_speed,first_name,last_name,birthdate,weight,height,position,idt) VALUES (16,35,'Maxwell','Matthews','22/01/1995',80,170,'F',13);
+INSERT INTO Forward (idp,max_speed,first_name,last_name,birthdate,weight,height,position,idt) VALUES (17,29,'Hu','Lawrence','07/01/1997',71,162,'F',6);
+INSERT INTO Forward (idp,max_speed,first_name,last_name,birthdate,weight,height,position,idt) VALUES (18,36,'Savannah','Powell','23/07/1995',65,184,'F',5);
+--REFEREEs
+INSERT INTO Referee (first_name,last_name,birthdate,license) VALUES ('Thaddeus','Calhoun','22/05/1964','C');
+INSERT INTO Referee (first_name,last_name,birthdate,license) VALUES ('Lee','Doyle','08/05/1961','D');
+INSERT INTO Referee (first_name,last_name,birthdate,license) VALUES ('Moses','Byrd','13/09/1971','B');
+INSERT INTO Referee (first_name,last_name,birthdate,license) VALUES ('Abraham','Shelton','28/06/1979','C');
+INSERT INTO Referee (first_name,last_name,birthdate,license) VALUES ('Preston','Cantu','22/04/1968','A');
+INSERT INTO Referee (first_name,last_name,birthdate,license) VALUES ('Ross','Castaneda','03/03/1971','C');
+INSERT INTO Referee (first_name,last_name,birthdate,license) VALUES ('Grant','Nolan','26/11/1976','B');
+INSERT INTO Referee (first_name,last_name,birthdate,license) VALUES ('Jameson','Moon','18/11/1976','D');
+INSERT INTO Referee (first_name,last_name,birthdate,license) VALUES ('Jesse','Hartman','08/04/1974','C');
+INSERT INTO Referee (first_name,last_name,birthdate,license) VALUES ('Timothy','Norton','22/08/1975','D');
+--STADIUMs
+INSERT INTO Stadium (name,capacity,built) VALUES ('Wembley Stadium',23465,'20/03/1998');
+INSERT INTO Stadium (name,capacity,built) VALUES ('Camp Nou',73083,'06/04/1981');
+INSERT INTO Stadium (name,capacity,built) VALUES ('Old Trafford',65788,'02/08/1998');
+INSERT INTO Stadium (name,capacity,built) VALUES ('Emirates Stadium',40107,'05/05/1981');
+INSERT INTO Stadium (name,capacity,built) VALUES ('Bazaly',64359,'21/09/1981');
+INSERT INTO Stadium (name,capacity,built) VALUES ('Anfield',48182,'09/07/1985');
+INSERT INTO Stadium (name,capacity,built) VALUES ('Estadio Santiago Bernabéu',49547,'09/02/1980');
+--MATCHes
+INSERT INTO Match(datetime,round,result,video_report,idl,idt_home,idt_away,ids) values (to_date('2015-08-31 18:45:00', 'YYYY-MM-DD HH24:MI:SS'),1,NULL,NULL,1,1,2,1);
+INSERT INTO Match(datetime,round,result,video_report,idl,idt_home,idt_away,ids) values (to_date('2015-03-31 20:15:00', 'YYYY-MM-DD HH24:MI:SS'),1,'2:0',NULL,1,1,2,1);
+
+INSERT INTO Match(datetime,round,result,video_report,idl,idt_home,idt_away,ids) values (to_date('2015-05-05 17:00:00', 'YYYY-MM-DD HH24:MI:SS'),2,'1:0',NULL,6,10,11,4);
+INSERT INTO Match(datetime,round,result,video_report,idl,idt_home,idt_away,ids) values (to_date('2015-05-05 18:00:00', 'YYYY-MM-DD HH24:MI:SS'),2,'1:1',NULL,6,12,13,3);
+INSERT INTO Match(datetime,round,result,video_report,idl,idt_home,idt_away,ids) values (to_date('2015-05-15 15:45:00', 'YYYY-MM-DD HH24:MI:SS'),3,'3:1',NULL,6,10,12,4);
+INSERT INTO Match(datetime,round,result,video_report,idl,idt_home,idt_away,ids) values (to_date('2015-05-15 21:45:00', 'YYYY-MM-DD HH24:MI:SS'),3,'2:1',NULL,6,11,13,3);
+INSERT INTO Match(datetime,round,result,video_report,idl,idt_home,idt_away,ids) values (to_date('2015-05-30 18:45:00', 'YYYY-MM-DD HH24:MI:SS'),3,'1:3',NULL,6,13,10,3);
+INSERT INTO Match(datetime,round,result,video_report,idl,idt_home,idt_away,ids) values (to_date('2015-05-30 18:45:00', 'YYYY-MM-DD HH24:MI:SS'),3,'2:2',NULL,6,11,12,2);
+INSERT INTO Match(datetime,round,result,video_report,idl,idt_home,idt_away,ids) values (to_date('2015-09-30 18:45:00', 'YYYY-MM-DD HH24:MI:SS'),3,NULL,NULL,6,11,12,2);
+
+INSERT INTO Match(datetime,round,result,video_report,idl,idt_home,idt_away,ids) values (to_date('2015-06-06 18:00:00', 'YYYY-MM-DD HH24:MI:SS'),6,'2:0',NULL,2,5,6,5);
+INSERT INTO Match(datetime,round,result,video_report,idl,idt_home,idt_away,ids) values (to_date('2015-06-12 18:00:00', 'YYYY-MM-DD HH24:MI:SS'),6,'1:2',NULL,2,7,5,6);
+INSERT INTO Match(datetime,round,result,video_report,idl,idt_home,idt_away,ids) values (to_date('2015-08-12 18:00:00', 'YYYY-MM-DD HH24:MI:SS'),6,NULL,NULL,2,7,6,6);
+
+
+
+
+--select * from match
+--select * from player
+--select * from team
+--select * from league

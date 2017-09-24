@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="77B7C8CA-4AAA-F4CA-F5BA-2D8BA6F7BE2C" mainViewID="5D2EC717-E0C6-4018-C314-D186A97512DF">
+<createdBy>David</createdBy>
+<createdTime>2015-06-02 08:52:36 UTC</createdTime>
+<ownerDesignName>FootballLeague</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

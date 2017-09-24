@@ -1,0 +1,142 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5BF69926-0E38-111D-91A7-A2600E2C33FC" name="Forward">
+<createdBy>David</createdBy>
+<createdTime>2015-06-02 12:38:10 UTC</createdTime>
+<generatorID>F0926ABA-565F-3FF5-8334-07F922D1D05E</generatorID>
+<ownerDesignName>FootballLeague</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idp" id="FA764BD4-9880-EDA7-9335-F48FB416637B">
+<createdBy>David</createdBy>
+<createdTime>2015-06-02 12:38:10 UTC</createdTime>
+<generatorID>6044E706-FF1D-6A55-E31F-FF3BD290E9AC</generatorID>
+<ownerDesignName>FootballLeague</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>F21E4F5A-069F-96CC-C0C4-4600318F032C</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6B3D7F7A-374F-2A21-A055-E542844974DC" referredColumn="F21E4F5A-069F-96CC-C0C4-4600318F032C"/>
+</associations>
+</Column>
+<Column name="max_speed" id="A8064C64-4F4D-F906-B715-1A080E003174">
+<createdBy>David</createdBy>
+<createdTime>2015-06-02 12:38:10 UTC</createdTime>
+<generatorID>34DC3227-E00B-1430-D3C8-1675EA5509BA</generatorID>
+<ownerDesignName>FootballLeague</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="first_name" id="A5C9D902-E8E6-41D0-942F-81026BFE6A8C">
+<createdBy>David</createdBy>
+<createdTime>2015-06-03 12:23:51 UTC</createdTime>
+<generatorID>579CC6D2-F029-2A2B-F20F-E13FF912D29B</generatorID>
+<ownerDesignName>FootballLeague</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="last_name" id="A77FDA5D-B0F8-4423-3F02-0000BE2EB337">
+<createdBy>David</createdBy>
+<createdTime>2015-06-03 12:23:51 UTC</createdTime>
+<generatorID>33E640B6-FD6A-B345-F289-DEE86EE346D9</generatorID>
+<ownerDesignName>FootballLeague</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="birthdate" id="3F02FCEB-95EE-8A78-9B28-31D4AD5FEDFA">
+<createdBy>David</createdBy>
+<createdTime>2015-06-03 12:23:51 UTC</createdTime>
+<generatorID>E98BB007-35EF-3915-26C3-1814D5C3D5B4</generatorID>
+<ownerDesignName>FootballLeague</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="weight" id="5C737850-3B93-D979-CB55-E8918B22A3C8">
+<createdBy>David</createdBy>
+<createdTime>2015-06-03 12:23:51 UTC</createdTime>
+<generatorID>74EF1906-0A41-DA13-783C-BF704F2E8E70</generatorID>
+<ownerDesignName>FootballLeague</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="height" id="68035E15-ED3B-F96C-268D-D20ECEF9A7DA">
+<createdBy>David</createdBy>
+<createdTime>2015-06-03 12:23:51 UTC</createdTime>
+<generatorID>D88CFD22-0669-D01E-E0D7-25545C8640B9</generatorID>
+<ownerDesignName>FootballLeague</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="position" id="50A36117-E551-B19E-712A-DD85DD6E4DA3">
+<createdBy>David</createdBy>
+<createdTime>2015-06-03 12:23:51 UTC</createdTime>
+<generatorID>41799D2F-7401-170F-3621-4F6F8FDAD43C</generatorID>
+<ownerDesignName>FootballLeague</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="idt" id="720891C2-0E4A-743F-BEF1-1628C8B9469C">
+<createdBy>David</createdBy>
+<createdTime>2015-06-03 12:23:51 UTC</createdTime>
+<generatorID>4BE3945F-BA8C-F50D-015D-4B2EE2D0D90E</generatorID>
+<ownerDesignName>FootballLeague</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C803DF65-DAE5-DA65-5A60-0906E23057E7" name="Forward_PK">
+<createdBy>David</createdBy>
+<createdTime>2015-06-02 12:38:10 UTC</createdTime>
+<generatorID>DD9346B1-D114-577A-581E-4199C8818E0D</generatorID>
+<ownerDesignName>FootballLeague</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FA764BD4-9880-EDA7-9335-F48FB416637B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="45B7ABCD-D5DB-4155-DFBF-246C9E436A38" name="Forward_Player_FK">
+<createdBy>David</createdBy>
+<createdTime>2015-06-02 12:38:10 UTC</createdTime>
+<generatorID>4C1F5C66-7FAA-B512-FB33-BD976B06712A</generatorID>
+<ownerDesignName>FootballLeague</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FA764BD4-9880-EDA7-9335-F48FB416637B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

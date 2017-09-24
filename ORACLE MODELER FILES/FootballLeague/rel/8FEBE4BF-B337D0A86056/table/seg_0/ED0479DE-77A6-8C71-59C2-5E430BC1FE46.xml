@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ED0479DE-77A6-8C71-59C2-5E430BC1FE46" name="Controls">
+<createdBy>David</createdBy>
+<createdTime>2015-06-02 12:38:10 UTC</createdTime>
+<ownerDesignName>FootballLeague</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idm" id="4C7E4331-BB87-2CC8-4983-E40D119EB342">
+<createdBy>David</createdBy>
+<createdTime>2015-06-02 12:38:10 UTC</createdTime>
+<ownerDesignName>FootballLeague</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>0C4891FB-D7BD-AED9-B376-E0B562CF8484</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="53873C97-B75D-ED2D-DCB7-5C5CD7F0F148" referredColumn="0C4891FB-D7BD-AED9-B376-E0B562CF8484"/>
+</associations>
+</Column>
+<Column name="idr" id="D548212C-2B05-5E4F-EA0D-BA14BAB4251E">
+<createdBy>David</createdBy>
+<createdTime>2015-06-02 12:38:10 UTC</createdTime>
+<ownerDesignName>FootballLeague</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>91B7BB75-78F8-29C5-D9AA-CDFAA1B4A1F1</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="22410D7C-D6B5-89C4-26B1-B012F420DFAA" referredColumn="91B7BB75-78F8-29C5-D9AA-CDFAA1B4A1F1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="87CF3D39-9CE2-6D5E-DBB5-F5D2AFBC21E1" name="Controls_PK">
+<createdBy>David</createdBy>
+<createdTime>2015-06-02 12:38:10 UTC</createdTime>
+<ownerDesignName>FootballLeague</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4C7E4331-BB87-2CC8-4983-E40D119EB342"/>
+<colUsage columnID="D548212C-2B05-5E4F-EA0D-BA14BAB4251E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2640102C-340D-0244-D34F-EE402C73531F" name="FK_ASS_2">
+<createdBy>David</createdBy>
+<createdTime>2015-06-02 12:38:10 UTC</createdTime>
+<generatorID>98F8450A-7BFF-C389-EB55-B5923B27E3E7</generatorID>
+<ownerDesignName>FootballLeague</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4C7E4331-BB87-2CC8-4983-E40D119EB342"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F749DF24-0C83-57FE-006D-2551ACECA7B8" name="FK_ASS_3">
+<createdBy>David</createdBy>
+<createdTime>2015-06-02 12:38:10 UTC</createdTime>
+<generatorID>98F8450A-7BFF-C389-EB55-B5923B27E3E7</generatorID>
+<ownerDesignName>FootballLeague</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D548212C-2B05-5E4F-EA0D-BA14BAB4251E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

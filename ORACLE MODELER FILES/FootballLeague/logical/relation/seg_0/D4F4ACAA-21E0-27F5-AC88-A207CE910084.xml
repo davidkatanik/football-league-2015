@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Match Away Team FK" directorySegmentName="seg_0" id="D4F4ACAA-21E0-27F5-AC88-A207CE910084">
+<createdBy>David</createdBy>
+<createdTime>2015-06-02 09:38:32 UTC</createdTime>
+<ownerDesignName>FootballLeague</ownerDesignName>
+<engineerTo>
+<item key="8FEBE4BF-D68D-4E19-BC49-B337D0A86056" value="true"/>
+</engineerTo>
+<sourcePk>C0087422-9D40-7F74-943B-18DF1EAF42A7</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C20A3157-9334-64D2-B2D1-16337C7C60E4</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E207C6AD-27E3-2DB6-2B19-05BD5999FEBB</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

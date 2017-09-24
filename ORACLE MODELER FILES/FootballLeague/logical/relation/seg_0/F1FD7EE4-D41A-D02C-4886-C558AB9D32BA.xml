@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Match Stadium FK" directorySegmentName="seg_0" id="F1FD7EE4-D41A-D02C-4886-C558AB9D32BA">
+<createdBy>David</createdBy>
+<createdTime>2015-06-02 09:48:25 UTC</createdTime>
+<ownerDesignName>FootballLeague</ownerDesignName>
+<engineerTo>
+<item key="8FEBE4BF-D68D-4E19-BC49-B337D0A86056" value="true"/>
+</engineerTo>
+<sourcePk>6E696FA3-B8C9-87F6-9F07-4007ABA3A398</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>83453C60-AA2B-38DE-F62B-AF86151BA841</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E207C6AD-27E3-2DB6-2B19-05BD5999FEBB</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="FootballLeague" id="C910E749-851E-45AA-9BBC-31AB6A08F6C0" version="3.5">
+<createdBy>David</createdBy>
+<createdTime>2015-06-02 08:52:36 UTC</createdTime>
+<ownerDesignName>FootballLeague</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>C910E749-851E-45AA-9BBC-31AB6A08F6C0</designId>
+</OSDM_Design>

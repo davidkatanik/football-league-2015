@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Team League FK" directorySegmentName="seg_0" id="A4F7ACEF-C87A-4BD1-9010-0586CF47B406">
+<createdBy>David</createdBy>
+<createdTime>2015-06-02 09:35:32 UTC</createdTime>
+<ownerDesignName>FootballLeague</ownerDesignName>
+<engineerTo>
+<item key="8FEBE4BF-D68D-4E19-BC49-B337D0A86056" value="true"/>
+</engineerTo>
+<sourcePk>F55428E9-AF7D-CD80-4A2B-3B9E0803367B</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A5410119-DFC8-A874-B641-44EE6E454F14</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C20A3157-9334-64D2-B2D1-16337C7C60E4</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

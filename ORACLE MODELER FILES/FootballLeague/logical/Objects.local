@@ -1,0 +1,25 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="BD88532E-76EF-2196-1FE1-79EC1629DD50" name="Capacity hist" seqName="seg_0"/>
+   <object objectType="Entity" objectID="F0926ABA-565F-3FF5-8334-07F922D1D05E" name="Forward" seqName="seg_0"/>
+   <object objectType="Entity" objectID="A5410119-DFC8-A874-B641-44EE6E454F14" name="League" seqName="seg_0"/>
+   <object objectType="Entity" objectID="E207C6AD-27E3-2DB6-2B19-05BD5999FEBB" name="Match" seqName="seg_0"/>
+   <object objectType="Entity" objectID="7F091F75-4763-4548-130A-4DD8552B8DE9" name="Player" seqName="seg_0"/>
+   <object objectType="Entity" objectID="93875536-8821-68BB-2FA7-74D6A415D4D8" name="Plays" seqName="seg_0"/>
+   <object objectType="Entity" objectID="8ACA2DFA-D4FA-B41B-F5C0-B2043937C0D0" name="Referee" seqName="seg_0"/>
+   <object objectType="Entity" objectID="83453C60-AA2B-38DE-F62B-AF86151BA841" name="Stadium" seqName="seg_0"/>
+   <object objectType="Entity" objectID="3B0FEED1-D837-56C8-171C-42AEF095529F" name="Statistics" seqName="seg_0"/>
+   <object objectType="Entity" objectID="C20A3157-9334-64D2-B2D1-16337C7C60E4" name="Team" seqName="seg_0"/>
+   <object objectType="Relation" objectID="E737F2A1-37F7-C454-04B0-F5B567D0D3CA" name="Capacity hist Stadium FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="98F8450A-7BFF-C389-EB55-B5923B27E3E7" name="Controls" seqName="seg_0"/>
+   <object objectType="Relation" objectID="D4F4ACAA-21E0-27F5-AC88-A207CE910084" name="Match Away Team FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="75FFDEF2-C254-684D-26E1-48536FEB487A" name="Match Home Team FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="6C45D95C-51D4-83EC-518E-D6544E8726DA" name="Match League FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="F1FD7EE4-D41A-D02C-4886-C558AB9D32BA" name="Match Stadium FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="4BB0030D-8F00-7667-25E8-45CA7DE75DDB" name="Player Team FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="185B1501-47EB-616E-92D6-0CDFCE456524" name="Plays Match FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="F1C6AF6E-78EF-BDCE-544D-246FADC1DB74" name="Plays Player FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="D366A48D-0500-CB5D-2B54-96B670C60D8B" name="Statistics Match FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="A4F7ACEF-C87A-4BD1-9010-0586CF47B406" name="Team League FK" seqName="seg_0"/>
+   <object objectType="Hierarchy relation" objectID="4C1F5C66-7FAA-B512-FB33-BD976B06712A" name="Hierarchy_1" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

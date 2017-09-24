@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="93875536-8821-68BB-2FA7-74D6A415D4D8" name="Plays">
+<createdBy>David</createdBy>
+<createdTime>2015-06-02 12:27:03 UTC</createdTime>
+<ownerDesignName>FootballLeague</ownerDesignName>
+<engineerTo>
+<item key="8FEBE4BF-D68D-4E19-BC49-B337D0A86056" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idp" id="465F9D02-F84D-27D5-E979-BE7EE01AFD6C">
+<createdBy>David</createdBy>
+<createdTime>2015-06-02 12:33:07 UTC</createdTime>
+<generatorID>F1C6AF6E-78EF-BDCE-544D-246FADC1DB74</generatorID>
+<ownerDesignName>FootballLeague</ownerDesignName>
+<engineerTo>
+<item key="8FEBE4BF-D68D-4E19-BC49-B337D0A86056" value="true"/>
+</engineerTo>
+<referedAttribute>6044E706-FF1D-6A55-E31F-FF3BD290E9AC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="idm" id="F93D272B-309B-6960-29A3-E7CE6345365E">
+<createdBy>David</createdBy>
+<createdTime>2015-06-02 12:33:12 UTC</createdTime>
+<generatorID>185B1501-47EB-616E-92D6-0CDFCE456524</generatorID>
+<ownerDesignName>FootballLeague</ownerDesignName>
+<engineerTo>
+<item key="8FEBE4BF-D68D-4E19-BC49-B337D0A86056" value="true"/>
+</engineerTo>
+<referedAttribute>F17A90DE-77B3-2ACB-18D0-D267D4957AE1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="goals" id="0BBE6703-C4FE-DFCB-3FF8-DCD6DBB57A6F">
+<createdBy>David</createdBy>
+<createdTime>2015-06-02 12:33:40 UTC</createdTime>
+<ownerDesignName>FootballLeague</ownerDesignName>
+<engineerTo>
+<item key="8FEBE4BF-D68D-4E19-BC49-B337D0A86056" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="assists" id="1D35EA28-A06C-FF32-E1EF-651B546C71BE">
+<createdBy>David</createdBy>
+<createdTime>2015-06-02 12:33:40 UTC</createdTime>
+<ownerDesignName>FootballLeague</ownerDesignName>
+<engineerTo>
+<item key="8FEBE4BF-D68D-4E19-BC49-B337D0A86056" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="yellow cards" id="09561B59-4B18-47D9-B7FB-D90E5032392B">
+<createdBy>David</createdBy>
+<createdTime>2015-06-02 12:33:40 UTC</createdTime>
+<ownerDesignName>FootballLeague</ownerDesignName>
+<engineerTo>
+<item key="8FEBE4BF-D68D-4E19-BC49-B337D0A86056" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="red card" id="63BAD07B-B54A-1FA4-815A-650299B2901A">
+<createdBy>David</createdBy>
+<createdTime>2015-06-02 12:33:40 UTC</createdTime>
+<ownerDesignName>FootballLeague</ownerDesignName>
+<engineerTo>
+<item key="8FEBE4BF-D68D-4E19-BC49-B337D0A86056" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="minutes" id="5A94D659-949D-A889-E04E-9EB42D63B5E9">
+<createdBy>David</createdBy>
+<createdTime>2015-06-02 12:34:02 UTC</createdTime>
+<ownerDesignName>FootballLeague</ownerDesignName>
+<engineerTo>
+<item key="8FEBE4BF-D68D-4E19-BC49-B337D0A86056" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5846B897-35AB-D06A-C94F-E26BDAD2A182" name="Plays_PK">
+<createdBy>David</createdBy>
+<createdTime>2015-06-02 12:33:07 UTC</createdTime>
+<ownerDesignName>FootballLeague</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="8FEBE4BF-D68D-4E19-BC49-B337D0A86056" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>465F9D02-F84D-27D5-E979-BE7EE01AFD6C</attributeRef>
+<attributeRef>F93D272B-309B-6960-29A3-E7CE6345365E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

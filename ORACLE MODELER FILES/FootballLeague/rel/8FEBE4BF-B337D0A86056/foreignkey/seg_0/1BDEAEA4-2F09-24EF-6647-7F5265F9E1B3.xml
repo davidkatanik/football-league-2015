@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1BDEAEA4-2F09-24EF-6647-7F5265F9E1B3" name="Match_Away_Team_FK">
+<createdBy>David</createdBy>
+<createdTime>2015-06-02 12:38:10 UTC</createdTime>
+<generatorID>D4F4ACAA-21E0-27F5-AC88-A207CE910084</generatorID>
+<ownerDesignName>FootballLeague</ownerDesignName>
+<containerWithKeyObject>CDA573ED-8F5B-D899-3CF5-C46B7AE68BE1</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>C9BB916D-8807-7284-7BCD-E29F0F2170AE</localFKIndex>
+<keyObject>1BF9220B-49DD-1C5D-7387-C50F1B1FF917</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
